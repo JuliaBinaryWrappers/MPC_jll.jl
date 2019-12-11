@@ -1,0 +1,113 @@
+[[MPC]]
+arch = "armv7l"
+git-tree-sha1 = "9ca6322702b5c59c5c9b674a3b8af13e4d3e6151"
+libc = "glibc"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "f59cf735cbb79080a82684be1c428ecf6624b497a2827422f6cd8a044ebab16b"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.arm-linux-gnueabihf.tar.gz"
+[[MPC]]
+arch = "x86_64"
+git-tree-sha1 = "6cc53a422e260cda14e0477dcf0bc3134ad03c51"
+libc = "glibc"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "41b5681a01d706be268cdffc154be09589d215c0b6b75668bb38847339a4095a"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.x86_64-linux-gnu.tar.gz"
+[[MPC]]
+arch = "aarch64"
+git-tree-sha1 = "3f70c3e59199d7605a53e6a62c14657885a53f2a"
+libc = "musl"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "05c635d58bee2b77500e20eeb93d11b4edc98cebdf69a1cd1f1045bce52a9d31"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.aarch64-linux-musl.tar.gz"
+[[MPC]]
+arch = "powerpc64le"
+git-tree-sha1 = "aaa3898f8bb5e9fc8a645a503d9b13051ca5788d"
+libc = "glibc"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "4acb07f57a616dba28d80d618622a24cce96375d97e38f1ddc0c5339f91d7958"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.powerpc64le-linux-gnu.tar.gz"
+[[MPC]]
+arch = "x86_64"
+git-tree-sha1 = "abeac383a75cbfa2fd81221dde68d41ac43c0e0e"
+os = "macos"
+
+    [[MPC.download]]
+    sha256 = "95187151dbb5d0d1e80dba5e44a3577508043f43132c4f74132799a5f7882b9e"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.x86_64-apple-darwin14.tar.gz"
+[[MPC]]
+arch = "x86_64"
+git-tree-sha1 = "862a3ba36e63484edd83e514a83e7b752d3ac8e4"
+libc = "musl"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "3a57d6c3a5212cca87b428d7a6e02cf9e1297fdeb9168051c2d647bf116cabd3"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.x86_64-linux-musl.tar.gz"
+[[MPC]]
+arch = "x86_64"
+git-tree-sha1 = "4a50e57f8421cfb44e40670ec33dca161316280f"
+os = "windows"
+
+    [[MPC.download]]
+    sha256 = "4e15ec6de2e501d8b27ca1f5e03d113d0b8083f9d9c8b377a668bc1340607e18"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.x86_64-w64-mingw32.tar.gz"
+[[MPC]]
+arch = "i686"
+git-tree-sha1 = "6c03bcf9848a876a58beeea2b6556947f465b25b"
+libc = "glibc"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "f798a68f67a7691390e399bb5d77cdb173fe2acad60ab55e9a1a1d724624571e"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.i686-linux-gnu.tar.gz"
+[[MPC]]
+arch = "aarch64"
+git-tree-sha1 = "f9ab81d5e41d7b6c29bab0899d7d4cac04fb68e1"
+libc = "glibc"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "2987354158177de9362941e14fc238d48087ab7a787f47a1c9bb1538c9d84460"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.aarch64-linux-gnu.tar.gz"
+[[MPC]]
+arch = "i686"
+git-tree-sha1 = "f45aa9b3ff073e22ad28600dfee9f8b7e59c49bd"
+libc = "musl"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "c65f7f00a3577506393831e5767def8bb3bd2699caa63b20517c7a9e1a4eb4f2"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.i686-linux-musl.tar.gz"
+[[MPC]]
+arch = "x86_64"
+git-tree-sha1 = "d1e16eb82d4119001db8086966d2db9e63f80be1"
+os = "freebsd"
+
+    [[MPC.download]]
+    sha256 = "3f7c65c7426546ae0897701a62f80c6ef01bf56b90dc19827c0818d9a2be59ce"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.x86_64-unknown-freebsd11.1.tar.gz"
+[[MPC]]
+arch = "i686"
+git-tree-sha1 = "f3922a411ac785b8f45de2ee62a407ced35310c9"
+os = "windows"
+
+    [[MPC.download]]
+    sha256 = "4c5106cfb25041955aab95a64133d293afa7cc802aadd5481d9fe131e723ae08"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.i686-w64-mingw32.tar.gz"
+[[MPC]]
+arch = "armv7l"
+git-tree-sha1 = "9a28ed78a2140c2554b2cebc11f323e891ff9457"
+libc = "musl"
+os = "linux"
+
+    [[MPC.download]]
+    sha256 = "b35b7f9c98fc760c2e5a8b0cdcf4011bc19b2bc2c778ccfb442bb4eddb7f0b73"
+    url = "https://github.com/JuliaBinaryWrappers/MPC_jll.jl/releases/download/MPC-v1.1.0+0/MPC.v1.1.0.arm-linux-musleabihf.tar.gz"
